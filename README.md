@@ -14,4 +14,8 @@ Step 6 - git branch -- Shows the current branch.
 
 Step 7 - git remote add origin https://github.com/xMohammadAsimx/Practice.git
 
-Step 8 - git push origin main -- Push the code to Github from origin to main
+Step 8 - git push origin main -- Push the code to Github from origin to main. -- Destination is origin and pushing from main
+
+Step 9 - After making some changes you have to again git add, then check git status and the git commit and then finally push the code
+
+
