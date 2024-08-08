@@ -18,4 +18,5 @@ Step 8 - git push origin main -- Push the code to Github from origin to main. --
 
 Step 9 - After making some changes you have to again git add, then check git status and the git commit and then finally push the code
 
+Step 10 - git add . -- Make all the files that are untracked tracked.
 
