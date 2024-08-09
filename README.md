@@ -26,3 +26,4 @@ Step 12 - .gitignore -- If you want to ignore some files to be committed then yo
 
 Step 13 - We usually provide the path of folders we don't wish to push into the repository. For instance I have created a file "myenv" which I don't want to push into the repository of my github. For that proceed to .gitignore and type myenv/ this way it will not push that folder into the repository and will stop tracking that folder.
 
+Step 14 - Now we are currently working under main* as shown with git status. In order to switch to the branch of developerA type the following in terminal "git checkout developerA" again type git status to verify your branch
