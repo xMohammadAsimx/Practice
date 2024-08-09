@@ -26,3 +26,7 @@ Step 12 - .gitignore -- If you want to ignore some files to be committed then yo
 
 Step 13 - We usually provide the path of folders we don't wish to push into the repository. For instance I have created a file "myenv" which I don't want to push into the repository of my github. For that proceed to .gitignore and type myenv/ this way it will not push that folder into the repository and will stop tracking that folder.
 
+Step 14 - Currently we have a single branch (main) which contains all our requried code. But In a company there can be multiple developers that can work on a single code. For that we need to create branches
+
+Step 15 - git branch developerA -- Creates an exact replica of main branch in which developer A can work. To ensure branch is created type git branch to verify.
+
