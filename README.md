@@ -32,3 +32,5 @@ Step 15 - Now after developerA updates the code and commit changes he switches t
 
 - git checkout main
 - git merge developerA
+
+Step 16 - git branch -d developerA -- Inorder to delete a local branch will delete developerA
