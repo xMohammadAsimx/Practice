@@ -7,7 +7,7 @@ Step 2 - git status -- Provides information of tracked files, Currently README.m
 Step 3 - git add "<file>" -- Starts tracking a file
 
 Step 4 - git commit -m "your message" - Goes into staging enviroment (temporary) to help us push our file (README.md) into Github Repository.
- 
+ git co
 Step 5 - git branch -M main -- Allows our branch to rename it to Main
 
 Step 6 - git branch -- Shows the current branch.
@@ -19,4 +19,8 @@ Step 8 - git push origin main -- Push the code to Github from origin to main. --
 Step 9 - After making some changes you have to again git add, then check git status and the git commit and then finally push the code
 
 Step 10 - git add . -- Make all the files that are untracked tracked.
+
+Step 11 - Created a file .gitignore using GUI Interface of Github and then git pull origin main to our local VS Code. 
+
+Step 12 - .gitignore -- If you want to ignore some files to be committed then you can add them in gitignore
 
