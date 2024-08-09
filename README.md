@@ -26,7 +26,9 @@ Step 12 - .gitignore -- If you want to ignore some files to be committed then yo
 
 Step 13 - We usually provide the path of folders we don't wish to push into the repository. For instance I have created a file "myenv" which I don't want to push into the repository of my github. For that proceed to .gitignore and type myenv/ this way it will not push that folder into the repository and will stop tracking that folder.
 
-Step 14 - Currently we have a single branch (main) which contains all our requried code. But In a company there can be multiple developers that can work on a single code. For that we need to create branches
+Step 14 - Now we are currently working under main* as shown with git status. In order to switch to the branch of developerA type the following in terminal "git checkout developerA" again type git status to verify your branch
 
-Step 15 - git branch developerA -- Creates an exact replica of main branch in which developer A can work. To ensure branch is created type git branch to verify.
+Step 15 - Now after developerA updates the code and commit changes he switches to main branch as soon as he types git checkout main, he will only see the main code and not his updated code since developerA had the replica of that code. In order to merge that code to main First of all do the following
 
+- git checkout main
+- git merge developerA
