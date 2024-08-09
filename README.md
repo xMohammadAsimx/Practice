@@ -24,3 +24,5 @@ Step 11 - Created a file .gitignore using GUI Interface of Github and then git p
 
 Step 12 - .gitignore -- If you want to ignore some files to be committed then you can add them in gitignore
 
+Step 13 - We usually provide the path of folders we don't wish to push into the repository. For instance I have created a file "myenv" which I don't want to push into the repository of my github. For that proceed to .gitignore and type myenv/ this way it will not push that folder into the repository and will stop tracking that folder.
+
