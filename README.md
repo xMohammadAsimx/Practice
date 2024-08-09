@@ -34,3 +34,5 @@ Step 15 - Now after developerA updates the code and commit changes he switches t
 - git merge developerA
 
 Step 16 - git branch -d developerA -- Inorder to delete a local branch will delete developerA
+
+Step 17 - Sometimes we recieve a error failed to push some code because of conflict if someone added their code function which is different from my function. In that case I need to pull that file
